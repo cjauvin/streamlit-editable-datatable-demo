@@ -38,7 +38,7 @@ def main():
             columns=["a", "b", "c"],
         )
 
-    st.subheader("Change a or b, you can also add or delete rows")
+    st.subheader("Change `a` or `b` values, you can also add or delete rows")
 
     st.data_editor(
         st.session_state.df,
